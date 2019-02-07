@@ -1,34 +1,26 @@
 package com.appleeducate.fluttersms;
 
 import io.flutter.plugin.common.MethodCall;
-import io.flutter.plugin.common.MethodChannel;
 import io.flutter.plugin.common.MethodChannel.MethodCallHandler;
 import io.flutter.plugin.common.MethodChannel.Result;
 import io.flutter.plugin.common.PluginRegistry.Registrar;
-import android.app.Activity;
-import android.content.Intent;
+
 import android.telephony.SmsManager;
 
-import android.Manifest;
-import android.app.Activity;
-import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.provider.Settings;
-import android.support.v4.app.ActivityCompat;
 //import android.support.v4.content.ContextCompat;
 import android.util.Log;
 import android.Manifest;
 import android.app.Activity;
 import android.content.Intent;
-import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.media.MediaScannerConnection;
 import android.net.Uri;
 import android.provider.MediaStore;
 import android.support.annotation.VisibleForTesting;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.content.FileProvider;
-import io.flutter.plugin.common.MethodCall;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.FileProvider;
 import io.flutter.plugin.common.MethodChannel;
 import io.flutter.plugin.common.PluginRegistry;
 import java.io.File;
